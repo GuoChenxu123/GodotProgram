@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bou1ewrd4lwo7"]
 
-[ext_resource type="Script" path="res://跟随鼠标移动.cs" id="1_5ia0w"]
+[ext_resource type="Script" path="res://Scripts/跟随鼠标移动.cs" id="1_5ia0w"]
 [ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="2_sbjf7"]
 
 [node name="Player" type="CharacterBody2D"]

@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "E:\\code\\GodetProgramt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\GodetProgramt\\Scripts\\DissolveTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\DissolveTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\GodetProgramt\\Scripts\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|e:\\code\\godetprogramt\\scripts\\alphatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|e:\\code\\godetprogramt\\scripts\\dissolvetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:scripts\\dissolvetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|E:\\code\\GodetProgramt\\scripts\\alphatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:scripts\\alphatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\GodetProgramt\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|E:\\code\\GodetProgramt\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|e:\\code\\godetprogramt\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|E:\\code\\GodetProgramt\\mysprite2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:mysprite2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|E:\\code\\GodetProgramt\\mybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:mybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|E:\\code\\GodetProgramt\\sprite2dbasecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:sprite2dbasecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|E:\\code\\GodetProgramt\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC31DC2-93E5-447E-9DF0-20278318EB98}|GodetProgramt.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 2149,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,94 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:01:44.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Sprite2DBaseCode.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\Sprite2DBaseCode.cs",
-              "RelativeDocumentMoniker": "Sprite2DBaseCode.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\Sprite2DBaseCode.cs",
-              "RelativeToolTip": "Sprite2DBaseCode.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAcwEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T01:03:43.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "enemy.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\enemy.cs",
-              "RelativeDocumentMoniker": "enemy.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\enemy.cs",
-              "RelativeToolTip": "enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:15:10.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MyButton.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\MyButton.cs",
-              "RelativeDocumentMoniker": "MyButton.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\MyButton.cs",
-              "RelativeToolTip": "MyButton.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:03:40.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MySprite2D.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\MySprite2D.cs",
-              "RelativeDocumentMoniker": "MySprite2D.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\MySprite2D.cs",
-              "RelativeToolTip": "MySprite2D.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvyAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:06:26.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "A.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\A.cs",
-              "RelativeDocumentMoniker": "A.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\A.cs",
-              "RelativeToolTip": "A.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:31:55.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
-              "DocumentMoniker": "E:\\code\\GodetProgramt\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
-              "RelativeDocumentMoniker": "\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
-              "ToolTip": "E:\\code\\GodetProgramt\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
-              "RelativeToolTip": "\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T01:00:54.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AlphaTest.cs",
               "DocumentMoniker": "E:\\code\\GodetProgramt\\Scripts\\AlphaTest.cs",
               "RelativeDocumentMoniker": "Scripts\\AlphaTest.cs",
@@ -153,12 +42,11 @@
               "RelativeToolTip": "Scripts\\AlphaTest.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAUwBQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T03:31:28.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T03:31:28.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DissolveTest.cs",
               "DocumentMoniker": "E:\\code\\GodetProgramt\\Scripts\\DissolveTest.cs",
               "RelativeDocumentMoniker": "Scripts\\DissolveTest.cs",
@@ -167,6 +55,19 @@
               "ViewState": "AQIAAAgAAAAAAAAAAADwvw0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T03:52:17.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
+              "DocumentMoniker": "E:\\code\\GodetProgramt\\Scripts\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
+              "RelativeDocumentMoniker": "Scripts\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
+              "ToolTip": "E:\\code\\GodetProgramt\\Scripts\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
+              "RelativeToolTip": "Scripts\\\u8DDF\u968F\u9F20\u6807\u79FB\u52A8.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:33:39.666Z",
               "EditorCaption": ""
             }
           ]

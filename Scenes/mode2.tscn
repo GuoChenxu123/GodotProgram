@@ -40,6 +40,7 @@ stretch_mode = 5
 
 [node name="MarginContainer2" type="MarginContainer" parent="Container/ColorRect"]
 visible = false
+layout_mode = 0
 offset_left = 240.0
 offset_right = 480.0
 offset_bottom = 216.0
@@ -96,6 +97,7 @@ stretch_mode = 5
 
 [node name="MarginContainer7" type="MarginContainer" parent="Container/ColorRect"]
 visible = false
+layout_mode = 0
 offset_left = 960.0
 offset_right = 1200.0
 offset_bottom = 216.0
@@ -114,6 +116,7 @@ stretch_mode = 5
 
 [node name="MarginContainer10" type="MarginContainer" parent="Container/ColorRect"]
 visible = false
+layout_mode = 0
 offset_left = 1200.0
 offset_right = 1440.0
 offset_bottom = 216.0
@@ -132,6 +135,7 @@ stretch_mode = 5
 
 [node name="MarginContainer11" type="MarginContainer" parent="Container/ColorRect"]
 visible = false
+layout_mode = 0
 offset_left = 1440.0
 offset_right = 1680.0
 offset_bottom = 216.0
@@ -149,6 +153,7 @@ texture = ExtResource("1_swvfs")
 stretch_mode = 5
 
 [node name="MarginContainer12" type="MarginContainer" parent="Container/ColorRect"]
+layout_mode = 0
 offset_left = 1680.0
 offset_right = 1920.0
 offset_bottom = 216.0

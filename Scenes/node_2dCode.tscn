@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cj5k6jfy3hpal"]
 
 [ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="1_04x33"]
-[ext_resource type="Script" path="res://Sprite2DBaseCode.cs" id="2_0dupf"]
+[ext_resource type="Script" path="res://Scripts/Sprite2DBaseCode.cs" id="2_0dupf"]
 
 [node name="Node2D" type="Node2D"]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://c0ykah10dis5j"]
 
 [ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="1_vl7w5"]
-[ext_resource type="Script" path="res://Player.cs" id="2_vjiyw"]
-[ext_resource type="Script" path="res://enemy.cs" id="3_pcdmv"]
+[ext_resource type="Script" path="res://Scripts/Player.cs" id="2_vjiyw"]
+[ext_resource type="Script" path="res://Scripts/enemy.cs" id="3_pcdmv"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -22,7 +22,7 @@ texture = ExtResource("1_vl7w5")
 script = ExtResource("3_pcdmv")
 
 [node name="enemy3" type="Sprite2D" parent="." groups=["小兵", "敌人"]]
-position = Vector2(1310, 748)
+position = Vector2(859, 479)
 texture = ExtResource("1_vl7w5")
 script = ExtResource("3_pcdmv")
 

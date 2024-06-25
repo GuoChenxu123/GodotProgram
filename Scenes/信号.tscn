@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://bci1esjet8mdq"]
 
-[ext_resource type="Script" path="res://MyButton.cs" id="1_xv77m"]
+[ext_resource type="Script" path="res://Scripts/MyButton.cs" id="1_xv77m"]
 [ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="2_4srx6"]
-[ext_resource type="Script" path="res://MySprite2D.cs" id="3_jivki"]
-[ext_resource type="Script" path="res://A.cs" id="4_5iqt2"]
+[ext_resource type="Script" path="res://Scripts/MySprite2D.cs" id="3_jivki"]
+[ext_resource type="Script" path="res://Scripts/A.cs" id="4_5iqt2"]
 
 [node name="Node2D" type="Node2D"]
 

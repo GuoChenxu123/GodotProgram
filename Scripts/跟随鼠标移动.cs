@@ -14,7 +14,7 @@ public partial class 跟随鼠标移动 : CharacterBody2D
         //Normalized() 方法用于将向量归一化。
         Vector2 direction = (GetGlobalMousePosition() - GlobalPosition).Normalized();
         //Angle() 方法用于获取向量的角度。
-        //Rotation = direction.Angle();
+        Rotation = direction.Angle();
         if (direction != Vector2.Zero)
         {
             Velocity = direction * Speed;
