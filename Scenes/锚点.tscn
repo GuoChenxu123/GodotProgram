@@ -1,0 +1,76 @@
+[gd_scene load_steps=2 format=3 uid="uid://c00nqdov06x6v"]
+
+[ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="1_k1t7e"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.311354
+anchor_top = 0.0504815
+anchor_right = 0.577646
+anchor_bottom = 0.387482
+offset_left = 0.200012
+offset_top = -0.520004
+offset_right = -0.0800781
+offset_bottom = -0.480042
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.068
+anchor_top = 0.032
+anchor_right = 0.272
+anchor_bottom = 0.814
+offset_left = -0.560013
+offset_top = 0.439999
+offset_right = 0.759949
+offset_bottom = -0.119995
+text = "一 、 锚点锚定在谁身上
+		锚点是锚定在父控件上的，并且使用0到1的比例进行锚定 ， 也就是Anchor Points，锚点所围成的边在父控件的相对位置，以left属性为例就是锚点所围矩形的左侧边，拖动左侧边left属性值改变，其值为0到1，也就是父控件的最左和最右
+
+二 、 锚点如何锚定位置和大小
+		Anchor Offsets ，这里也是指的锚点所连成矩形的四条边，其值是锚点所围成的边到子节点对应边的偏移，单位是像素
+
+三 、 锚点的核心是点嘛
+		锚点的重点不是点是边，是锚点所围成矩形的四条边
+
+锚定原理 ； 当父节点放大时 ， 由于锚点锚定在父结点上，所以锚点跟随移动，锚点围城的矩形也随之扩大，但锚点偏移是固定值，假设都为0时（在它自己的四个顶点上），为了保持这个偏移仍然为0，子节点会被拉伸，也就出现了子节点随父结点放大的效果。
+
+扩展 ：
+1、 锚点矩形也可以缩至一个点上，由于点不会被父节点拉伸，只会跟随移动，所应常用来定位元素且保持尺寸不被拉伸（此时我们就有了一个定位在左上角的头像）不管窗口如何变化头像始终在左上角，且没有被拉伸。
+2、 锚点矩形除了变化成一个点，也可以变化成一条线，将锚点矩形变化成水平边，和子节点上边重合，由于线段可以被拉长但不会拉宽，所以我们就得到一个宽度跟随父元素缩放，但高度不变的输入框
+3、 最好给子节点最小尺寸后，使用锚点预设"
+autowrap_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 37.0
+offset_top = 35.0
+offset_right = 94.0
+offset_bottom = 92.0
+texture = ExtResource("1_k1t7e")
+expand_mode = 1
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.3345
+anchor_top = 0.503852
+anchor_right = 0.52475
+anchor_bottom = 0.507556
+offset_left = -0.240051
+offset_top = -0.160034
+offset_right = 0.47998
+offset_bottom = 72.84
+placeholder_text = "可以改变长度的输入框"
+metadata/_edit_use_anchors_ = true

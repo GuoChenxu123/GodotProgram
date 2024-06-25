@@ -1,0 +1,84 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmujpco7jmsy"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mvqe0"]
+font_size = 26
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LoginBox" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.236
+anchor_top = 0.272
+anchor_right = 0.687
+anchor_bottom = 0.747
+offset_left = -0.200012
+offset_top = 47.2
+offset_right = 0.599976
+offset_bottom = -0.300049
+
+[node name="TitleBox" type="Panel" parent="LoginBox"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 142.0
+offset_top = -47.0
+offset_right = -117.0
+offset_bottom = 12.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="LoginBox/TitleBox"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.986
+anchor_bottom = 1.0
+offset_right = -0.0380249
+offset_bottom = -1.0
+label_settings = SubResource("LabelSettings_mvqe0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="UserName" type="LineEdit" parent="LoginBox"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.196
+anchor_top = 0.203
+anchor_right = 0.827
+anchor_bottom = 0.203
+offset_left = -0.232002
+offset_top = -0.140007
+offset_right = -0.234009
+offset_bottom = 69.86
+
+[node name="UserPwd" type="LineEdit" parent="LoginBox"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.196
+anchor_top = 0.484
+anchor_right = 0.827
+anchor_bottom = 0.484
+offset_left = -0.232002
+offset_top = 0.0799866
+offset_right = -0.234009
+offset_bottom = 70.08
+secret = true
+secret_character = "*"
+
+[node name="Button" type="Button" parent="LoginBox"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.196
+anchor_top = 0.8
+anchor_right = 0.827
+anchor_bottom = 0.8
+offset_left = -0.232002
+offset_right = -0.234009
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 26
+text = "确    定"

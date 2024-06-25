@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0ykah10dis5j"]
+
+[ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="1_vl7w5"]
+[ext_resource type="Script" path="res://Player.cs" id="2_vjiyw"]
+[ext_resource type="Script" path="res://enemy.cs" id="3_pcdmv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(184, 344)
+texture = ExtResource("1_vl7w5")
+script = ExtResource("2_vjiyw")
+
+[node name="enemy1" type="Sprite2D" parent="." groups=["小兵", "敌人"]]
+position = Vector2(914, 224)
+texture = ExtResource("1_vl7w5")
+script = ExtResource("3_pcdmv")
+
+[node name="enemy2" type="Sprite2D" parent="." groups=["小兵", "敌人"]]
+position = Vector2(1077, 355)
+texture = ExtResource("1_vl7w5")
+script = ExtResource("3_pcdmv")
+
+[node name="enemy3" type="Sprite2D" parent="." groups=["小兵", "敌人"]]
+position = Vector2(1310, 748)
+texture = ExtResource("1_vl7w5")
+script = ExtResource("3_pcdmv")
+
+[node name="boss" type="Sprite2D" parent="." groups=["敌人"]]
+position = Vector2(974, 691)
+texture = ExtResource("1_vl7w5")
+script = ExtResource("3_pcdmv")

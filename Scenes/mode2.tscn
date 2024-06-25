@@ -1,0 +1,623 @@
+[gd_scene load_steps=2 format=3 uid="uid://gin2q3onx6q6"]
+
+[ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="1_swvfs"]
+
+[node name="mode2" type="Node2D"]
+
+[node name="Container" type="Control" parent="."]
+editor_description = "
+"
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 145.0
+tooltip_text = "Top"
+
+[node name="ColorRect" type="ColorRect" parent="Container"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 71.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0)
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/ColorRect"]
+layout_mode = 0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer2" type="MarginContainer" parent="Container/ColorRect"]
+visible = false
+offset_left = 240.0
+offset_right = 480.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer2"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer3" type="MarginContainer" parent="Container/ColorRect"]
+visible = false
+layout_mode = 2
+offset_left = 480.0
+offset_right = 720.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer3"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer6" type="MarginContainer" parent="Container/ColorRect"]
+visible = false
+layout_mode = 2
+offset_left = 720.0
+offset_right = 960.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer6"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer7" type="MarginContainer" parent="Container/ColorRect"]
+visible = false
+offset_left = 960.0
+offset_right = 1200.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer7"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer10" type="MarginContainer" parent="Container/ColorRect"]
+visible = false
+offset_left = 1200.0
+offset_right = 1440.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer10"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer11" type="MarginContainer" parent="Container/ColorRect"]
+visible = false
+offset_left = 1440.0
+offset_right = 1680.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer11"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer12" type="MarginContainer" parent="Container/ColorRect"]
+offset_left = 1680.0
+offset_right = 1920.0
+offset_bottom = 216.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Container/ColorRect/MarginContainer12"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="Control" type="Panel" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_top = 216.0
+offset_right = 1440.0
+offset_bottom = 1080.0
+grow_horizontal = 0
+
+[node name="GridContainer" type="GridContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 6
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer2"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer3" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer3"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer4" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer4"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer5" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer5"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer6" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer6"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer7" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer7"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer8" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer8"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer9" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer9"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer10" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer10"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer11" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer11"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer12" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer12"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer13" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer13"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer14" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer14"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer15" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer15"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer16" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer16"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer17" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer17"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer18" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer18"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer19" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer19"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer20" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer20"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer21" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer21"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+stretch_mode = 5
+
+[node name="MarginContainer22" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer22"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer23" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer23"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer24" type="MarginContainer" parent="Control/GridContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer/MarginContainer24"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer24" type="MarginContainer" parent="."]
+offset_left = 1440.0
+offset_top = 216.0
+offset_right = 1680.0
+offset_bottom = 432.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer24"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer25" type="MarginContainer" parent="."]
+offset_left = 1680.0
+offset_top = 216.0
+offset_right = 1920.0
+offset_bottom = 432.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer25"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer26" type="MarginContainer" parent="."]
+offset_left = 1440.0
+offset_top = 432.0
+offset_right = 1680.0
+offset_bottom = 648.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer26"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer27" type="MarginContainer" parent="."]
+offset_left = 1680.0
+offset_top = 432.0
+offset_right = 1920.0
+offset_bottom = 648.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer27"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer28" type="MarginContainer" parent="."]
+offset_left = 1440.0
+offset_top = 648.0
+offset_right = 1680.0
+offset_bottom = 864.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer28"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer29" type="MarginContainer" parent="."]
+offset_left = 1680.0
+offset_top = 648.0
+offset_right = 1920.0
+offset_bottom = 864.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer29"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer30" type="MarginContainer" parent="."]
+offset_left = 1440.0
+offset_top = 864.0
+offset_right = 1680.0
+offset_bottom = 1080.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer30"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")
+
+[node name="MarginContainer31" type="MarginContainer" parent="."]
+offset_left = 1680.0
+offset_top = 864.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 35
+theme_override_constants/margin_bottom = 23
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer31"]
+custom_minimum_size = Vector2(170, 170)
+layout_mode = 2
+texture = ExtResource("1_swvfs")

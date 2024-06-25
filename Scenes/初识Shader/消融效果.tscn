@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://dd3ibv75cwq53"]
+
+[ext_resource type="Script" path="res://Scripts/DissolveTest.cs" id="1_oewac"]
+[ext_resource type="Shader" uid="uid://si67my04ygvn" path="res://Shader/Dissolve.tres" id="2_qmqjw"]
+[ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="3_xdahi"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1bed3"]
+shader = ExtResource("2_qmqjw")
+shader_parameter/DissolveParameter = 0.0
+
+[node name="Dissolve" type="Node2D"]
+script = ExtResource("1_oewac")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 29.0
+offset_top = 25.0
+offset_right = 608.0
+offset_bottom = 371.0
+color = Color(0.540658, 0.882813, 0.444855, 1)
+
+[node name="Icon" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_1bed3")
+position = Vector2(304, 195)
+scale = Vector2(1.60938, 1.60938)
+texture = ExtResource("3_xdahi")
+
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 201.0
+offset_top = 56.0
+offset_right = 407.0
+offset_bottom = 72.0
+max_value = 1.0
+step = 0.01
+
+[node name="Label" type="Label" parent="."]
+offset_left = 622.0
+offset_top = 23.0
+offset_right = 1154.0
+offset_bottom = 868.0
+text = "消融就是让图片局部透明，并且透明区域逐渐扩大，
+
+节点 ：
+Texture2D ： 可以承载很多类型的贴图（如本次要使用的噪声贴图）
+选择Texture然后选择NoiseTexture2D在右侧创建噪声源
+
+Texture2D右侧的5个端口除了alpha其他的都可以给到输出节点的alpha。color是包含了R,G,B,A的组合端口，而输出节点的Alpha端口只有一个，当参数数量不匹配的时候会自动匹配前面的参数。也就是说color节点链接给输出节点的Alpha就相当于Red链接给了输出节点的Alpha。
+那为什么green 和 blue也可以呢？
+不同的RGB值组合出不同的颜色，但将取色拉到最左边，也就是只有黑白时没有其他颜色时，RGB是一样的RGB(255,255,255)这个0~255被映射为0~1。这就是为什么RGB都可以输出给Alpha，而且效果一致。图片虽然是黑白不均，但在Texture2D输出的alpha值始终为1（全白）。
+
+Step节点 ：
+步长 ： edge 是阈值 ， x是输入值 ， 如果x大于等于edge ， 返回1，否则返回0
+step(edge , x){
+	if(x>=edge){
+		return 1;
+	}else{
+		return 0;
+	}
+}"
+autowrap_mode = 1

@@ -1,0 +1,77 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwqidfuv8ws1k"]
+
+[ext_resource type="Script" path="res://Scripts/AlphaTest.cs" id="1_6m07u"]
+[ext_resource type="Shader" uid="uid://ff2ailpmc5wu" path="res://Shader/alpha.tres" id="1_a72w5"]
+[ext_resource type="Texture2D" uid="uid://tesik16wptk" path="res://icon.svg" id="2_4tjri"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0hdwm"]
+shader = ExtResource("1_a72w5")
+shader_parameter/AlphaParameter = 1.0
+
+[node name="Alpha" type="Node"]
+script = ExtResource("1_6m07u")
+
+[node name="Icon" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_0hdwm")
+position = Vector2(99, 122)
+texture = ExtResource("2_4tjri")
+
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 35.0
+offset_top = 32.0
+offset_right = 154.0
+offset_bottom = 48.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchor_left = 0.219
+anchor_top = 0.018
+anchor_right = 0.985167
+anchor_bottom = 0.981
+offset_left = 0.199982
+offset_top = -0.200001
+offset_right = -0.200073
+offset_bottom = 0.0999146
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(-1, 6)
+text = "着色器编辑器：
+工具栏；
+1、 添加节点，也可以右键空白处添加
+2、 着色器类型
+3、 缩放比例（鼠标滚轮控制 ， 鼠标中键移动视图）
+4、  网格工具
+5、 网格吸附 ， 网格大小
+6、 小地图预览
+7、 节点整理，选中节点后自动整理布局
+8、 管理脚本变量
+9、 查看生成着色器代码，有助于学习代码编程
+
+内容窗口：
+输出节点：他是整个编程的出口，告诉我们可以控制哪些属性。分别是：
+Color:颜色
+Alpha:透明度
+法线相关三个属性：
+Normal:
+Normal Map:
+Normal Map Depth:
+Light Vertex:光照
+Shadow Vertex:阴影 
+
+节点 ： 
+FloatConstant ：顾名思义，他是一个Float常量  （重要 ！！！ 1对应的值是全白 ， 0对应的值是全黑）常量节点无法外部控制
+FloatParameter : 节点Default Value Enabled 是否启用默认值. Default Value 设置默认值.
+								
+
+"
+autowrap_mode = 1
