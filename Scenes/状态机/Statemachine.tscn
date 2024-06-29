@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://bl118v5vpmd34"]
+
+[node name="Statemachine" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 281.0
+offset_bottom = 626.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "state_machine(对象)状态机
+		current_state  //当前状态
+
+		update()  //更新
+		change_state(state)  //切换状态
+		is_state(state_name)  //是否为某状态
+状态机是存在于游戏对象里的（玩家/怪物/ui菜单/身上有一个或多个甚至嵌套的状态机），
+
+
+state状态
+owner  //状态的拥有者
+
+enter()  //进入
+execute()  //执行
+exit()  //退出"
+autowrap_mode = 1
